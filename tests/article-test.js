@@ -1,6 +1,6 @@
 
-(function ArticleHasHeadline() {
-  var article = new Article()
-  article.addArticle("Storm Ciara - on the move")
+(function ArticleHasHeadlineAndId() {
+  var article = new Article("Storm Ciara - on the move")
   assert.isTrue(article.viewHeadline() === "Storm Ciara - on the move");
+  assert.isTrue(article.id === 0)
 })();
