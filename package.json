@@ -1,0 +1,29 @@
+{
+  "name": "news-summary-challenge",
+  "version": "1.0.0",
+  "description": "News Summary Challenge",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyjspencer/news.git"
+  },
+  "keywords": [
+    "API",
+    "Guardian",
+    "news",
+    "frontend"
+  ],
+  "author": "emilyjspencer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilyjspencer/news/issues"
+  },
+  "homepage": "https://github.com/emilyjspencer/news#readme"
+}
