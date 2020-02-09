@@ -1,16 +1,25 @@
 
 (function(exports) {
-  function Article(headline) {
+  function Article(headline, id, url) {
     this.headline = headline
+    this.id = id
+    this.url = url
   }
 
-  Article.prototype.addArticle = function(headline) {
-    this.headline = headline
-  }
 
   Article.prototype.viewHeadline = function() {
     return (this.headline)
   }
+
+  Article.prototype.viewId = function() {
+    return (this.id)
+  }
+
+  Article.prototype.viewUrl = function() {
+    return (this.url)
+  }
+
+
 
   exports.Article = Article
 })(this);
